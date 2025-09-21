@@ -27,9 +27,6 @@ This project detects deepfakes and calculates ethical scores using a combination
      - `prediction`: “real” or “fake”  
      - `confidence`: softmax probability (%)  
 
-📸 *Screenshot placeholder:*  
-_Add a screenshot of the web app showing detection results (Real/Fake + confidence)._  
-
 ---
 
 ### ⚖️ Ethical Scoring
@@ -71,9 +68,6 @@ _Add a screenshot of the web app showing detection results (Real/Fake + confiden
    → Lower harm → Higher ethical score (closer to 10).  
    → Higher harm → Lower ethical score.
 
-📸 *Screenshot placeholder:*  
-_Add a screenshot of ethical score breakdown (bar chart or table)._  
-
 ---
 
 ### 🔄 Feedback Loop
@@ -81,9 +75,6 @@ _Add a screenshot of ethical score breakdown (bar chart or table)._
 - Users can submit feedback (`/api/submit-feedback`) with detection ID, filename, confidence, fake/real label, categories, reasons, and ethical scores.  
 - Stored in **JSONBin** and used to refine future average scores.  
 - Ensures the scoring system **learns continuously from human input**.
-
-📸 *Screenshot placeholder:*  
-_Add a screenshot of feedback submission screen / JSON data structure._  
 
 ---
 
@@ -95,30 +86,28 @@ _Add a screenshot of feedback submission screen / JSON data structure._
 4. **Score Lookup:** Fetches averages from feedback.  
 5. **Aggregation:** Computes weighted ethical score.  
 6. Results displayed → Real/Fake + Ethical score (0–10).  
-7. User feedback submitted → stored → improves system.
-
-📸 *Screenshot placeholder:*  
-_Add a flowchart or pipeline diagram here._  
+7. User feedback submitted → stored → improves system.  
 
 ---
 
-### 🔗 Pipeline Diagram
+## 📸 Screenshots
 
-```mermaid
-flowchart TD
-    A[User Uploads Media] --> B[File saved in uploads/]
-    B --> C[Face Detection (MTCNN)]
-    C --> D[Deepfake Detection (ViT)]
-    D --> E[Real or Fake Classification]
+- **Deepfake Detection Result**  
+  ![Detection Example](pipeline_screenshots/1.png)
 
-    C --> F[Ethical Models (ResNet-18)]
-    F --> G[Lookup Avg Scores (JSONBin)]
-    G --> H[Weighted Score Aggregation]
-    H --> I[Final Ethical Score (0–10)]
+- **Ethical Score Breakdown**  
+  ![Ethical Score Example](pipeline_screenshots/2.png)
 
-    E --> J[Display Results to User]
-    I --> J
+- **Feedback Submission**  
+  ![Feedback Example](pipeline_screenshots/3.png)
 
-    J --> K[User Feedback Submission]
-    K --> L[Feedback stored in JSONBin]
-    L --> G
+- **Step-by-Step Workflow**  
+  ![Workflow Example](pipeline_screenshots/4.png)
+
+---
+
+## 🔗 Pipeline Diagram
+
+The full **system pipeline** is illustrated below:  
+
+![Pipeline Diagram](pipeline_screenshots/pipeline.png)
