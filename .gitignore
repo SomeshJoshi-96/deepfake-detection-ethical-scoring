@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env
+.venv/
+
+# Environment variables & secrets
+.env
+
+# OS / IDE specific
+.idea/
+.vscode/
+*.swp
+
+# Replit config
+.replit
+replit.nix
+
+# Logs & lock files
+*.log
+uv.lock
+
+# Uploaded files (user uploads during testing)
+uploads/
+
+# JSON feedback (contains user data)
+feedback.json
+
+# Dependency / build
+*.egg-info/
+dist/
+build/
