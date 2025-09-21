@@ -93,16 +93,16 @@ This project detects deepfakes and calculates ethical scores using a combination
 ## 📸 Screenshots
 
 - **Deepfake Detection Result**  
-  ![Detection Example](pipeline_screenshots/1.png)
+  <img src="pipeline_screenshots/1.png" width="50%">
 
 - **Ethical Score Breakdown**  
-  ![Ethical Score Example](pipeline_screenshots/2.png)
+  <img src="pipeline_screenshots/2.png" width="50%">
 
 - **Feedback Submission**  
-  ![Feedback Example](pipeline_screenshots/3.png)
+  <img src="pipeline_screenshots/3.png" width="50%">
 
 - **Step-by-Step Workflow**  
-  ![Workflow Example](pipeline_screenshots/4.png)
+  <img src="pipeline_screenshots/4.png" width="50%">
 
 ---
 
@@ -110,4 +110,4 @@ This project detects deepfakes and calculates ethical scores using a combination
 
 The full **system pipeline** is illustrated below:  
 
-![Pipeline Diagram](pipeline_screenshots/pipeline.png)
+<img src="pipeline_screenshots/pipeline.png" width="50%">
