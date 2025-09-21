@@ -1,0 +1,100 @@
+{
+    "general": {
+        "00W5NPIX4S.jpg": {
+            "detection_id": "1744199083421",
+            "is_fake": true,
+            "confidence_score": 51.550257205963135,
+            "file_type": "image",
+            "reason_id": 2,
+            "reason_text": "Non Provocative",
+            "ethical_score": 2
+        },
+        "012N2T4FKG.jpg": {
+            "detection_id": "1744199317116",
+            "is_fake": true,
+            "confidence_score": 98.98566007614136,
+            "file_type": "image",
+            "reason_id": 2,
+            "reason_text": "Non Provocative",
+            "ethical_score": 2
+        },
+        "ZZSKUAFAQQ.jpg": {
+            "detection_id": "1744210643136",
+            "is_fake": true,
+            "confidence_score": 91.27234220504761,
+            "file_type": "image",
+            "reason_id": 2,
+            "reason_text": "Non Provocative",
+            "ethical_score": 2
+        },
+        "008Y48BIX8.jpg": {
+            "detection_id": "1744213900726",
+            "is_fake": true,
+            "confidence_score": 78.12226414680481,
+            "file_type": "image",
+            "reason_id": 2,
+            "reason_text": "Non Provocative",
+            "ethical_score": 2
+        }
+    },
+    "emotions": {
+        "00W5NPIX4S.jpg": {
+            "detection_id": "1744199083421",
+            "is_fake": true,
+            "confidence_score": 51.550257205963135,
+            "file_type": "image",
+            "reason_id": 3,
+            "reason_text": "Happy Face",
+            "ethical_score": 3
+        },
+        "012N2T4FKG.jpg": {
+            "detection_id": "1744199317116",
+            "is_fake": true,
+            "confidence_score": 98.98566007614136,
+            "file_type": "image",
+            "reason_id": 3,
+            "reason_text": "Happy Face",
+            "ethical_score": 2
+        },
+        "ZZSKUAFAQQ.jpg": {
+            "detection_id": "1744210643136",
+            "is_fake": true,
+            "confidence_score": 91.27234220504761,
+            "file_type": "image",
+            "reason_id": 3,
+            "reason_text": "Happy Face",
+            "ethical_score": 3
+        }
+    },
+    "personality": {
+        "012N2T4FKG.jpg": {
+            "detection_id": "1744199317116",
+            "is_fake": true,
+            "confidence_score": 98.98566007614136,
+            "file_type": "image",
+            "reason_id": 2,
+            "reason_text": "Non Influential",
+            "ethical_score": 3
+        },
+        "ZZSKUAFAQQ.jpg": {
+            "detection_id": "1744210643136",
+            "is_fake": true,
+            "confidence_score": 91.27234220504761,
+            "file_type": "image",
+            "reason_id": 2,
+            "reason_text": "Non Influential",
+            "ethical_score": 4
+        }
+    },
+    "broad": {
+        "ZZSKUAFAQQ.jpg": {
+            "detection_id": "1744210643136",
+            "is_fake": true,
+            "confidence_score": 91.27234220504761,
+            "file_type": "image",
+            "reason_id": 10,
+            "reason_text": "Other (unspecified)",
+            "ethical_score": 1
+        }
+    }
+}
