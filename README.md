@@ -109,10 +109,10 @@ flowchart TD
     A[User Uploads Media] --> B[File saved in uploads/]
     B --> C[Face Detection (MTCNN)]
     C --> D[Deepfake Detection (ViT)]
-    D -->|Prediction + Confidence| E[Real or Fake Classification]
+    D --> E[Real or Fake Classification]
 
     C --> F[Ethical Models (ResNet-18)]
-    F -->|Predicted Category Reasons| G[Lookup Avg Scores (JSONBin)]
+    F --> G[Lookup Avg Scores (JSONBin)]
     G --> H[Weighted Score Aggregation]
     H --> I[Final Ethical Score (0–10)]
 
